@@ -13,6 +13,7 @@ export default defineConfig({
       { text: 'Branch Network', link: '/tutorials/branch_network.html' },
       { text: 'OSPF Single Area Network', link: '/tutorials/ospf_single_area_network.html' },
       { text: 'DHCP Server Configuration', link: '/tutorials/dhcp_server_configuration.html' },
+      { text: 'Configure a Wireless Network', link: '/tutorials/configure_wireless_network.html' },
     ],
 
     socialLinks: [
