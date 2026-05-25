@@ -6,51 +6,46 @@ This is a guide to setup a branch network.
 
 ## Configure IP Addresses
 
-### IP Address Table for PCs
-PC0:
-- IPv4 Address: 192.168.1.2
-- Subnet Mask: 255.255.255.0
-- Default Gateway: 192.168.1.1
+IP Address Table for PCs:
+- PC0:
+    - IPv4 Address: 192.168.1.2
+    - Subnet Mask: 255.255.255.0
+    - Default Gateway: 192.168.1.1
+- PC1:
+    - IPv4 Address: 192.168.2.2
+    - Subnet Mask: 255.255.255.0
+    - Default Gateway: 192.168.2.1
+- PC2:
+    - IPv4 Address: 192.168.3.2
+    - Subnet Mask: 255.255.255.0
+    - Default Gateway: 192.168.3.1
+- PC3:
+    - IPv4 Address: 192.168.4.2
+    - Subnet Mask: 255.255.255.0
+    - Default Gateway: 192.168.4.1
 
-PC1:
-- IPv4 Address: 192.168.2.2
-- Subnet Mask: 255.255.255.0
-- Default Gateway: 192.168.2.1
+IP Address Table for Routers:
+- Router0:
+    - FastEthernet0/0: 10.1.1.1
+        - Subnet Mask: 255.255.255.0
+    - FastEthernet1/0: 192.168.1.1
+        - Subnet Mask: 255.255.255.0
+- Router1:
+    - FastEthernet0/0: 10.1.1.2
+        - Subnet Mask: 255.255.255.0
+    - FastEthernet1/0: 192.168.2.1
+        - Subnet Mask: 255.255.255.0
+- Router2:
+    - FastEthernet0/0: 10.1.1.3
+        - Subnet Mask: 255.255.255.0
+    - FastEthernet1/0: 192.168.3.1
+        - Subnet Mask: 255.255.255.0
+- Router3:
+    - FastEthernet0/0: 10.1.1.4
+        - Subnet Mask: 255.255.255.0
+    - FastEthernet1/0: 192.168.4.1
+        - Subnet Mask: 255.255.255.0
 
-PC2:
-- IPv4 Address: 192.168.3.2
-- Subnet Mask: 255.255.255.0
-- Default Gateway: 192.168.3.1
-
-PC3:
-- IPv4 Address: 192.168.4.2
-- Subnet Mask: 255.255.255.0
-- Default Gateway: 192.168.4.1
-
-### IP Address Table for Routers
-Router0:
-- FastEthernet0/0: 10.1.1.1
-    - Subnet Mask: 255.255.255.0
-- FastEthernet1/0: 192.168.1.1
-    - Subnet Mask: 255.255.255.0
-
-Router1:
-- FastEthernet0/0: 10.1.1.2
-    - Subnet Mask: 255.255.255.0
-- FastEthernet1/0: 192.168.2.1
-    - Subnet Mask: 255.255.255.0
-
-Router2:
-- FastEthernet0/0: 10.1.1.3
-    - Subnet Mask: 255.255.255.0
-- FastEthernet1/0: 192.168.3.1
-    - Subnet Mask: 255.255.255.0
-
-Router3:
-- FastEthernet0/0: 10.1.1.4
-    - Subnet Mask: 255.255.255.0
-- FastEthernet1/0: 192.168.4.1
-    - Subnet Mask: 255.255.255.0
 ### Configure IP Addresses for the PCs
 
 Go to Desktop -> IP Configuration. Set the **IPv4 Address**, and **Default Gateway** for each PC.
@@ -61,7 +56,7 @@ section.
 
 **FastEthernet0/0**
 
-Router0:
+Interface FastEthernet0/0 for Router0:
 ```
 Router>en
 Router#config t
@@ -70,36 +65,7 @@ Router(config-if)#ip add 10.1.1.1 255.255.255.0
 Router(config-if)#no shut
 ```
 
-Router1:
-```
-Router>en
-Router#config t
-Router(config)#int FastEthernet0/0
-Router(config-if)#ip add 10.1.1.2 255.255.255.0
-Router(config-if)#no shut
-```
-
-Router2:
-```
-Router>en
-Router#config t
-Router(config)#int FastEthernet0/0
-Router(config-if)#ip add 10.1.1.3 255.255.255.0
-Router(config-if)#no shut
-```
-
-Router3:
-```
-Router>en
-Router#config t
-Router(config)#int FastEthernet0/0
-Router(config-if)#ip add 10.1.1.4 255.255.255.0
-Router(config-if)#no shut
-```
-
-**FastEthernet1/0**
-
-Router0:
+Interface FastEthernet1/0 for Router0:
 ```
 Router>en
 Router#config t
@@ -108,7 +74,16 @@ Router(config-if)#ip add 192.168.1.1 255.255.255.0
 Router(config-if)#no shut
 ```
 
-Router1:
+Interface FastEthernet0/0 for Router1:
+```
+Router>en
+Router#config t
+Router(config)#int FastEthernet0/0
+Router(config-if)#ip add 10.1.1.2 255.255.255.0
+Router(config-if)#no shut
+```
+
+Interface FastEthernet1/0 for Router1:
 ```
 Router>en
 Router#config t
@@ -117,7 +92,16 @@ Router(config-if)#ip add 192.168.2.1 255.255.255.0
 Router(config-if)#no shut
 ```
 
-Router2:
+Interface FastEthernet0/0 for Router2:
+```
+Router>en
+Router#config t
+Router(config)#int FastEthernet0/0
+Router(config-if)#ip add 10.1.1.3 255.255.255.0
+Router(config-if)#no shut
+```
+
+Interface FastEthernet1/0 for Router2:
 ```
 Router>en
 Router#config t
@@ -126,7 +110,16 @@ Router(config-if)#ip add 192.168.3.1 255.255.255.0
 Router(config-if)#no shut
 ```
 
-Router3:
+Interface FastEthernet0/0 for Router3:
+```
+Router>en
+Router#config t
+Router(config)#int FastEthernet0/0
+Router(config-if)#ip add 10.1.1.4 255.255.255.0
+Router(config-if)#no shut
+```
+
+Interface FastEthernet1/0 for Router3:
 ```
 Router>en
 Router#config t
