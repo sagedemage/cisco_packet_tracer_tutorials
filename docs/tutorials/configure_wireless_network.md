@@ -19,7 +19,7 @@ Router0
 	- IP Address: 192.168.11.1
 	- Subnet Mask: 255.255.255.0
 
-FastEthernet0/0:
+Interface FastEthernet0/0 for Router0:
 ```
 Router> enable
 Router# conf t
@@ -29,7 +29,7 @@ Router(config-if)# no shutdown
 Router(config-if)# exit
 ```
 
-FastEthernet1/0:
+Interface FastEthernet1/0 for Router0:
 ```
 Router> enable
 Router# conf t

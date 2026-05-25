@@ -17,7 +17,7 @@ IP Address Table for Router0:
     - IPv4 Address: 192.168.10.1
     - Subnet Mask: 255.255.255.0
 
-FastEthernet0/0:
+Interface FastEthernet0/0 for Router0:
 ```
 Would you like to enter the initial configuration dialog? [yes/no]: no
 Router> enable
@@ -28,7 +28,7 @@ Router(config-if)# no shutdown
 Router(config-if)# exit
 ```
 
-FastEthernet1/0:
+Interface FastEthernet1/0 for Router0:
 ```
 Router(config)# interface fastethernet 1/0
 Router(config-if)# ip address 192.168.10.1 255.255.255.0
@@ -39,6 +39,8 @@ Router(config-if)# exit
 **Step 3**: Configuring DHCP on Router0.
 
 Create a DHCP pool called `Pool0DHCP` with the following IP addresses for the network, default-router, and dns-server.
+
+Router0:
 ```
 Router> enable
 Router# conf t
@@ -51,6 +53,8 @@ Router(dhcp-config)#exit
 ```
 
 Create another DHCP pool called `Pool1DHCP` with the following IP addresses for the network, default-router, and dns-server.
+
+Router0:
 ```
 Router0(config)#ip dhcp excluded-address 192.168.10.1 192.168.10.50
 Router(config)#ip dhcp pool Pool1DHCP

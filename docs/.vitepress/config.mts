@@ -14,6 +14,7 @@ export default defineConfig({
       { text: 'OSPF Single Area Network', link: '/tutorials/ospf_single_area_network.html' },
       { text: 'DHCP Server Configuration', link: '/tutorials/dhcp_server_configuration.html' },
       { text: 'Configure a Wireless Network', link: '/tutorials/configure_wireless_network.html' },
+      { text: 'RIPv2 Routing Configuration', link: '/tutorials/ripv2_routing_configuration.html' },
     ],
 
     socialLinks: [
