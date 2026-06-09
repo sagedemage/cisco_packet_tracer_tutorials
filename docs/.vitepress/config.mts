@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "WAN Network Tutorial - Cisco Packet Tracer",
-  description: "This is a guide to implement a WAN network in Cisco Packet Tracer.",
+  title: "Cisco Packet Tracer Tutorials",
+  description: "Tutorials on using Cisco Packet Tracer.",
   base: "/cisco_packet_tracer_tutorials/",
   head: [['link', { rel: 'icon', href: 'favicon/favicon.png' }]],
   themeConfig: {
