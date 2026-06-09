@@ -1,4 +1,4 @@
-# wan_network_tutorial_cisco_packet_tracer
+# cisco_packet_tracer_tutorials
 
 Tutorials on using Cisco Packet Tracer.
 
