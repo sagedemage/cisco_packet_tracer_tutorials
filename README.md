@@ -2,7 +2,7 @@
 
 Tutorials on using Cisco Packet Tracer.
 
-Read the guide at [WAN Network Tutorial - Cisco Packet Tracer](./docs/index.md).
+Read the guide at [WAN Network Tutorial - Cisco Packet Tracer](https://sagedemage.github.io/cisco_packet_tracer_tutorials/).
 
 ## Commands
 
