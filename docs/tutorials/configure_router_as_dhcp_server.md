@@ -7,7 +7,7 @@ This is a guide to setup a Wireless LAN Network with a Wireless LAN Controller.
 - Switch-PT: 2
 - Router-PT: 1
 
-![Configure Router as DHCP Server - Cisco Packet Tracer](../images/Configure_Router_as_DHCP_Server-Cisco_Packet_Tracer.PNG)
+![Configure Router as DHCP Server](../images/Configure_Router_as_DHCP_Server.PNG)
 
 **Step 2**: Configuring Router with IPv4 Address and Subnet Mask.
 

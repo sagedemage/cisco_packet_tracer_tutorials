@@ -7,7 +7,7 @@ Add the following devices in the network topology:
 - Laptop-PT: 2
 - Switch-PT: 1
 
-![Configure Wireless Network - Cisco Packet Tracer](../images/Configure_Wireless_Network-Cisco_Packet_Tracer.PNG)
+![Configure Wireless Network](../images/Configure_Wireless_Network.PNG)
 
 **Step 1**: Configure the interfaces of Router0
 

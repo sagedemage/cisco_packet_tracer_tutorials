@@ -2,7 +2,7 @@
 
 This is a guide to configure RIPv2 routing.
 
-![Logical Topology of the Network](../images/RIPv2_Routing_Configuration-Cisco_Packet_Tracer.PNG)
+![RIPv2 Routing Configuration](../images/RIPv2_Routing_Configuration.PNG)
 
 **Step 1:** Place the devices in the Logical topology given below.
 

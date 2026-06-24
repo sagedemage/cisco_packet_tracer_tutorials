@@ -2,7 +2,7 @@
 
 This is a guide to setup a Wireless LAN Network with a Wireless LAN Controller.
 
-![Wireless LAN Network with Wireless LAN Controller](../images/Wireless_LAN_Network_with_Wireless_LAN_Controller-Cisco_Packet_Tracer.PNG)
+![Wireless LAN Network with Wireless LAN Controller](../images/Wireless_LAN_Network_with_Wireless_LAN_Controller.PNG)
 
 IP Address Table for Router0:
 - Interface: GigabitEthernet0/0
