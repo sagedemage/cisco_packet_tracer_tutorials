@@ -11,7 +11,7 @@ IP Address Table for Router0:
 
 Configure the IP address for Router0.
 
-GigabitEthernet0/0 interface of Router0:
+Interface GigabitEthernet0/0 for Router0:
 ```
 Router>en
 Router#conf t
