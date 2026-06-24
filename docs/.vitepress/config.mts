@@ -10,11 +10,20 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Branch Network', link: '/tutorials/branch_network.html' },
-      { text: 'OSPF Single Area Network', link: '/tutorials/ospf_single_area_network.html' },
-      { text: 'DHCP Server Configuration', link: '/tutorials/dhcp_server_configuration.html' },
-      { text: 'Configure a Wireless Network', link: '/tutorials/configure_wireless_network.html' },
-      { text: 'RIPv2 Routing Configuration', link: '/tutorials/ripv2_routing_configuration.html' },
+    ],
+    sidebar: [
+      {
+        text: 'Tutorials',
+        items: [
+          { text: 'WAN Network Tutorial', link: '/' },
+          { text: 'Branch Network', link: '/tutorials/branch_network.html' },
+          { text: 'OSPF Single Area Network', link: '/tutorials/ospf_single_area_network.html' },
+          { text: 'Configure Router as DHCP Server', link: '/tutorials/configure_router_as_dhcp_server.html' },
+          { text: 'Configure a Wireless Network', link: '/tutorials/configure_wireless_network.html' },
+          { text: 'RIPv2 Routing Configuration', link: '/tutorials/ripv2_routing_configuration.html' },
+          { text: 'Wireless LAN Network', link: '/tutorials/wireless_lan_network_with_wireless_lan_controller.html' },
+        ]
+      }
     ],
 
     socialLinks: [

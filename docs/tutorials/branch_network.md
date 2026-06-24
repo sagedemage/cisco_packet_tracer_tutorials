@@ -2,7 +2,7 @@
 
 This is a guide to setup a branch network.
 
-![Branch Network - Cisco Packet Tracer](../images/Branch_Network-Cisco_Packet_Tracer.PNG)
+![Branch Network](../images/Branch_Network.PNG)
 
 ## Configure IP Addresses
 

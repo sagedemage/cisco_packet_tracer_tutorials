@@ -2,7 +2,7 @@
 
 This is a guide to setup an OSPF single area network.
 
-![OSPF Single Area Network - Cisco Packet Tracer](../images/OSPF_Single_Area_Network-Cisco_Packet_Tracer.PNG)
+![OSPF Single Area Network](../images/OSPF_Single_Area_Network.PNG)
 
 ## Configure IP Addresses
 
