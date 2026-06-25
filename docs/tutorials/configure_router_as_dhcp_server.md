@@ -2,22 +2,32 @@
 
 This is a guide to setup a Wireless LAN Network with a Wireless LAN Controller.
 
-**Step 1**: Open the cisco packet tracer desktop and add the devices shown below:
-- PC-PT: 6
-- Switch-PT: 2
-- Router-PT: 1
+List of Devices:
+- PC:
+	- Model Name: PC-PT
+	- Quantity: 6
+- Switch:
+	- Model Name: Switch-PT
+	- Quantity: 2
+- Router:
+	- Model Name: Router-PT
+	- Quantity: 1
 
 ![Configure Router as DHCP Server](../images/Configure_Router_as_DHCP_Server.PNG)
 
-**Step 2**: Configuring Router with IPv4 Address and Subnet Mask.
+## IP Address Table for the Routers
 
-IP Address Table for Router0:
+Router0:
 - FastEthernet0/0: 
     - IPv4 Address: 172.168.10.1
     - Subnet Mask: 255.255.255.0
 - FastEthernet1/0:
     - IPv4 Address: 192.168.10.1
     - Subnet Mask: 255.255.255.0
+
+## Configure IP Addresses for the Router
+
+Configuring Router with IPv4 Address and Subnet Mask.
 
 Interface FastEthernet0/0 for Router0:
 ```
@@ -38,7 +48,9 @@ Router(config-if)# no shutdown
 Router(config-if)# exit
 ```
 
-**Step 3**: Configuring DHCP on Router0.
+## Configure DHCP for the Router
+
+Configure DHCP on Router0.
 
 Create a DHCP pool called `Pool0DHCP` with the following IP addresses for the network, default-router, and dns-server.
 
@@ -66,12 +78,20 @@ Router(dhcp-config)#dns-server 192.168.10.1
 Router(dhcp-config)#exit
 ```
 
-**Step 4**: Configuring the PCs and changing the IP configuration.
-- To assign an IP address in PC0, click on PC0.
-- Go to "Desktop" -> "IP configuration" and you will find the IPv4 configuration.
-- Change its state from static to DHCP.
-- It should automatically fetch the data and configure itself.
-- Repeat the same steps with the other PCs.
+## Enable DHCP for the PCs
+
+Configure the PCs and change the IP configuration.
+1. To assign an IP address in PC0, click on PC0.
+2. Go to "Desktop" -> "IP configuration" and you will find the IPv4 configuration.
+3. Change its state from static to DHCP.
+4. It should automatically fetch the data and configure itself.
+5. Repeat the same steps with the other PCs.
+
+## Save Router Configurations
+Go to Router0 and save the running configuration to the startup configuration.
+```
+Router#copy running-config startup-config
+```
 
 ## Resource
 - [Configure Cisco router as DHCP server - study-ccna.com](https://study-ccna.com/configure-cisco-router-as-dhcp-server/)

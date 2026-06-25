@@ -4,10 +4,20 @@ This is a guide to setup a Wireless LAN Network with a Wireless LAN Controller.
 
 ![Wireless LAN Network with Wireless LAN Controller](../images/Wireless_LAN_Network_with_Wireless_LAN_Controller.PNG)
 
-IP Address Table for Router0:
+## IP Address Table for the Router
+Router0:
 - Interface: GigabitEthernet0/0
 - IPv4 Address: 10.1.1.3
 - Subnet Mask: 255.255.255.0
+
+## IP Address Table for the WLC
+- Management
+	- IPv4 Address: 10.1.1.2
+	- Subnet Mask: 255.255.255.0
+	- Default Gateway: 10.1.1.1
+	- DNS Server: 10.1.1.1
+
+## Configure IP Addresses for the Router
 
 Configure the IP address for Router0.
 
@@ -19,7 +29,9 @@ Router(config)#interface Gig0/0
 Router(config-if)#ip add 10.1.1.3 255.255.255.0
 ```
 
-Setup DHCP for Router0.
+## Configure DHCP for the Router
+
+Configure DHCP for Router0.
 
 DHCP Configuration for Router0:
 ```
@@ -33,16 +45,11 @@ Router(dhcp-config)#dns-server 10.1.1.1
 Router(dhcp-config)#end
 ```
 
-Wireless LAN Controller0 Configuration
+## Configure the Wireless LAN Controller
 
-Go to the config tab of the WLC. Then go to the Management section. Set the fields for the IP configuration according to the *IP Addressing of the WLC* down below.
+Configure the Wireless LAN Controller0.
 
-IP Addressing for the WLC:
-- Management
-	- IPv4 Address: 10.1.1.2
-	- Subnet Mask: 255.255.255.0
-	- Default Gateway: 10.1.1.1
-	- DNS Server: 10.1.1.1
+Go to the config tab of the WLC. Then go to the Management section. Set the fields for the IP configuration according to the *IP Addressing of the WLC*.
 
 Go to the Wireless LANs section. Set the fields for the Wireless LAN according to the *Wireless LAN of the WLC* down below.
 
@@ -52,11 +59,17 @@ Wireless LAN of the WLC:
 - Authentication: WPA2-PSK
 - PSK Pass Phrase: key12345
 
+## Enable DHCP for the LAPs
+
 Configure the LAPs to use DHCP to get the IP addresses for the Default Gateway and DNS Server.
+
+## Enable DHCP for the PCs
 
 For each PC, go to the Physical tab of the PC. Power off the PC. Replace the interface with a wireless interface, WMP300N. Power on the PC.
 
 Go to the Config tab then to Wireless0. Set the SSID to Sunlight. Change the authentication to WPA2-PSK. Type key12345 in the **PSK Pass Phrase** field. Set the IP configuration to DHCP. It will be set to Static once its connected to the LAP.
+
+## Save Router Configurations
 
 Go to Router0 and save the running configuration to the startup configuration.
 ```
