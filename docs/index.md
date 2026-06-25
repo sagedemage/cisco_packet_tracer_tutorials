@@ -4,23 +4,18 @@ This is a guide to implement a WAN network in Cisco Packet Tracer.
 
 ![WAN Network - Cisco Packet Tracer](./images/WAN_Network-Cisco_Packet_Tracer.PNG)
 
-## Devices
+List of Devices:
+- Router:
+    - Router Model Name: Router-PT
+    - Quantity: 2
+- Switch:
+    - Switch Model Name: Switch-PT
+    - Quantity: 2
+- PC:
+    - PC Model Name: PC-PT
+    - Quantity: 4
 
-Router:
-- Router Model Name: Router-PT
-- Quantity: 2
-
-Switch:
-- Switch Model Name: Switch-PT
-- Quantity: 2
-
-PC:
-- PC Model Name: PC-PT
-- Quantity: 4
-
-## Configure IP Addresses
-
-### IP Address Table for PCs
+## IP Address Table for the PCs
 
 PC0:
 - IPv4 Address: 192.168.1.2
@@ -42,7 +37,7 @@ PC3:
 - Subnet Mask: 255.255.255.0
 - Default Gateway: 192.168.2.1
 
-### IP Address Table for Routers:
+## IP Address Table for the Routers
 
 Router0:
 - Serial2/0: 10.1.1.1
@@ -56,13 +51,13 @@ Router1:
 - FastEthernet0/0: 192.168.2.1
     - Subnet Mask: 255.255.255.0
 
-### Configure IP Addresses for the PCs
+## Configure IP Addresses for the PCs
 
 Go to Desktop -> IP Configuration. Set the **IPv4 Address**, and **Default Gateway**
 for each PC. Make sure the IP addresses of the PCs matches with the information at
 the *IP Address Table for PCs* section.
 
-### Configure IP Addresses for the Routers
+## Configure IP Addresses for the Routers
 
 Configure the IP addresses for the two routers. You have to configure the
 ip address for the FastEthernet0/0 and Serial2/0 ports for each router.
@@ -105,7 +100,7 @@ Router(config-if)#no shut
 Router(config-if)#exit
 ```
 
-## Configure Routing
+## Configure Static Routing
 
 Configure static routes for the two routers in order for the PCs to communicate with each other.
 
@@ -194,6 +189,12 @@ C:\> ping 192.168.1.3
 ```
 
 These should all work.
+
+## Save Router Configurations
+Go to each router and save the running configuration to the startup configuration.
+```
+Router#copy running-config startup-config
+```
 
 Congratulations, you setup a WAN network in Cisco Packet Tracer!
 

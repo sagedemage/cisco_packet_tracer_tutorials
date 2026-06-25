@@ -4,8 +4,6 @@ This is a guide to configure RIPv2 routing.
 
 ![RIPv2 Routing Configuration](../images/RIPv2_Routing_Configuration.PNG)
 
-**Step 1:** Place the devices in the Logical topology given below.
-
 List of Devices:
 - PC:
 	- Model Name: PC-PT
@@ -17,41 +15,38 @@ List of Devices:
 	- Model Name: Router-PT
 	- Quantity: 3
 
-IP Address Table for PCs:
-- PC0:
-	- IP Address: 192.168.10.2
-	- Subnet Mask: 255.255.255.0
-	- Default Gateway: 192.168.10.1
-- PC1:
-	- IP Address: 192.168.10.3
-	- Subnet Mask: 255.255.255.0
-	- Default Gateway: 192.168.10.1
-- PC2:
-	- IP Address: 192.168.20.2
-	- Subnet Mask: 255.255.255.0
-	- Default Gateway: 192.168.20.1
-- PC3:
-	- IP Address: 192.168.20.3
-	- Subnet Mask: 255.255.255.0
-	- Default Gateway: 192.168.20.1
-- PC4:
-	- IP Address: 192.168.30.2
-	- Subnet Mask: 255.255.255.0
-	- Default Gateway: 192.168.30.1
-- PC5:
-	- IP Address: 192.168.30.3
-	- Subnet Mask: 255.255.255.0
-	- Default Gateway: 192.168.30.1
+## IP Address Table for the PCs
+PC0:
+- IP Address: 192.168.10.2
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.10.1
 
-**Step 2**: Configure the IP Addressing for the PCs.
+PC1:
+- IP Address: 192.168.10.3
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.10.1
 
-Go to Desktop -> IP Configuration
+PC2:
+- IP Address: 192.168.20.2
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.20.1
 
-Set the IPv4 Address, Subnet Mask, Default Gateway for each PC according to the *IP Addressing Table for the PCs* given above.
+PC3:
+- IP Address: 192.168.20.3
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.20.1
 
-**Step 3**: Configure the IP addressing for the router's interfaces.
+PC4:
+- IP Address: 192.168.30.2
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.30.1
 
-IP Address Table for Routers:
+PC5:
+- IP Address: 192.168.30.3
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.30.1
+
+## IP Address Table for the Routers
 - Router0:
 	- Interface: Serial2/0
 		- IP Address: 10.0.0.1
@@ -76,6 +71,18 @@ IP Address Table for Routers:
 	- Interface: FastEthernet0/0
 		- IP Address: 192.168.30.1
 		- Subnet Mask: 255.255.255.0
+
+## Configure IP Addresses for the PCs
+
+Configure the IP addresses for the PCs.
+
+Go to Desktop -> IP Configuration
+
+Set the IPv4 Address, Subnet Mask, Default Gateway for each PC according to the *IP Addressing Table for the PCs* given above.
+
+## Configure IP Addresses for the Routers
+
+Configure the IP addresses for the router's interfaces.
 
 Interface Serial2/0 for Router0:
 ```
@@ -136,7 +143,9 @@ Router(config-if)# no shut
 Router(config-if)# exit
 ```
 
-**Step 4**: Configure the dynamic routes to the routers.
+## Configure Dynamic Routing
+
+Configure the dynamic routes to the routers.
 
 Router0:
 ```
@@ -165,6 +174,12 @@ Router(config-router)# version 2
 Router(config-router)# network 192.168.30.0
 Router(config-router)# network 11.0.0.0
 Router(config-router)# exit
+```
+
+## Save Router Configurations
+Go to each router and save the running configuration to the startup configuration.
+```
+Router#copy running-config startup-config
 ```
 
 ## Resources
