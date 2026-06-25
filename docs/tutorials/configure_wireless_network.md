@@ -95,7 +95,7 @@ Configure the IP addresses for the PCs according to the *IP Address Table for th
 Power off the laptop. Replace the laptop's interface, PT-LAPTOP-NM-1CFE, with a wireless interface. Power on the laptop.
 Repeat the same steps for the other laptops.
 
-Configure the IP addresses for the Laptops according to the *IP Address Table for the Laptops*.
+Configure the IP addresses for the laptops according to the *IP Address Table for the Laptops*.
 
 ## Save Router Configuration
 Go to Router0 and save the running configuration to the startup configuration.
