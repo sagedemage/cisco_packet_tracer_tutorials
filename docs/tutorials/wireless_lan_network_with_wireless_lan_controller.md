@@ -69,7 +69,7 @@ For each PC, go to the Physical tab of the PC. Power off the PC. Replace the int
 
 Go to the Config tab then to Wireless0. Set the SSID to Sunlight. Change the authentication to WPA2-PSK. Type key12345 in the **PSK Pass Phrase** field. Set the IP configuration to DHCP. It will be set to Static once its connected to the LAP.
 
-## Save Router Configurations
+## Save Router Configuration
 
 Go to Router0 and save the running configuration to the startup configuration.
 ```

@@ -87,7 +87,7 @@ Configure the PCs and change the IP configuration.
 4. It should automatically fetch the data and configure itself.
 5. Repeat the same steps with the other PCs.
 
-## Save Router Configurations
+## Save Router Configuration
 Go to Router0 and save the running configuration to the startup configuration.
 ```
 Router#copy running-config startup-config

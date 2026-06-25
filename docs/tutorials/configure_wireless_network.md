@@ -97,7 +97,7 @@ Repeat the same steps for the other laptops.
 
 Configure the IP Addresses for the Laptops according to the *IP Address Table for the Laptops*.
 
-## Save Router Configurations
+## Save Router Configuration
 Go to Router0 and save the running configuration to the startup configuration.
 ```
 Router#copy running-config startup-config
