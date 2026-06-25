@@ -90,7 +90,7 @@ R2(config-if)# end
 Configure the IPv6 address for the PCs.
 Go to Desktop -> IP Configuration -> IPv6 Configuration.
 
-For each PC, set the IPv6 address and default gateway according to the IPv6 Address Table for the PCs above.
+For each PC, set the IPv6 address and default gateway according to the *IPv6 Address Table for the PCs* above.
 
 ## Configure Static IPv6 Routing
 
