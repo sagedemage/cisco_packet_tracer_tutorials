@@ -22,6 +22,7 @@ export default defineConfig({
           { text: 'Configure a Wireless Network', link: '/tutorials/configure_wireless_network.html' },
           { text: 'RIPv2 Routing Configuration', link: '/tutorials/ripv2_routing_configuration.html' },
           { text: 'Wireless LAN Network', link: '/tutorials/wireless_lan_network_with_wireless_lan_controller.html' },
+          { text: 'IPv6 Configuration and Routing', link: '/tutorials/ipv6_configuration_and_routing.html' },
         ]
       }
     ],
