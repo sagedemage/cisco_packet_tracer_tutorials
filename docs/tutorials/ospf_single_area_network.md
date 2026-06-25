@@ -67,7 +67,7 @@ section.
 
 ## Configure IP Addresses for the Routers
 
-Configure the IP addressing for the router's interfaces.
+Configure the IP addresses for the router's interfaces.
 
 Interface FastEthernet0/0 for Router0:
 ```
