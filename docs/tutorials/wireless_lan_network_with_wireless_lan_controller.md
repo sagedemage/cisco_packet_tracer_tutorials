@@ -49,7 +49,7 @@ Router(dhcp-config)#end
 
 Configure the Wireless LAN Controller0.
 
-Go to the config tab of the WLC. Then go to the Management section. Set the fields for the IP configuration according to the *IP Addressing of the WLC*.
+Go to the config tab of the WLC. Then go to the Management section. Set the fields for the IP configuration according to the *IP Address Table for the WLC*.
 
 Go to the Wireless LANs section. Set the fields for the Wireless LAN according to the *Wireless LAN of the WLC* down below.
 
