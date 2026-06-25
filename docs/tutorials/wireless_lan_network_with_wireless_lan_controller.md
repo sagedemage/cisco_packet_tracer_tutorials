@@ -19,7 +19,7 @@ Router0:
 
 ## Configure IP Addresses for the Router
 
-Configure the IP address for Router0.
+Configure the IP address for the interface of Router0.
 
 Interface GigabitEthernet0/0 for Router0:
 ```
