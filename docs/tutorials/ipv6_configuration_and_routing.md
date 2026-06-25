@@ -106,9 +106,9 @@ Routing for R2:
 R2(config)# ipv6 route 2001:db8:1:1::0/64 Se0/0/0
 ```
 
-Save the running config to the startup config for the routers.
-
 ## Save Router Configurations
+
+Save the running config to the startup config for the routers.
 
 Saving config for R1:
 ```
