@@ -15,7 +15,7 @@ List of Devices:
     - PC Model Name: PC-PT
     - Quantity: 4
 
-## IP Address Table for PCs
+## IP Address Table for the PCs
 
 PC0:
 - IPv4 Address: 192.168.1.2
