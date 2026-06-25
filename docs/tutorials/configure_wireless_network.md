@@ -89,7 +89,7 @@ Router(config-if)# exit
 Configure the interfaces of Wireless Router0 according to the *IP Address Table for the Routers*.
 
 ## Configure IP Addresses for the PCs
-Configure the IP Addresses for the PCs according to the *IP Address Table for the PCs*.
+Configure the IP addresses for the PCs according to the *IP Address Table for the PCs*.
 
 ## Configure IP Addresses for the Laptops
 Power off the laptop. Replace the laptop's interface, PT-LAPTOP-NM-1CFE, with a wireless interface. Power on the laptop.
