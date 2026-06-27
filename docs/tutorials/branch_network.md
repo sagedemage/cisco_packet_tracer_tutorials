@@ -1,4 +1,4 @@
-# Branch Network Tutorial
+# Branch Network
 
 This is a guide to setup a branch network.
 

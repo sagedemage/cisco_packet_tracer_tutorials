@@ -15,7 +15,7 @@ export default defineConfig({
       {
         text: 'Tutorials',
         items: [
-          { text: 'WAN Network Tutorial', link: '/' },
+          { text: 'WAN Network', link: '/' },
           { text: 'Branch Network', link: '/tutorials/branch_network.html' },
           { text: 'OSPF Single Area Network', link: '/tutorials/ospf_single_area_network.html' },
           { text: 'Configure Router as DHCP Server', link: '/tutorials/configure_router_as_dhcp_server.html' },
