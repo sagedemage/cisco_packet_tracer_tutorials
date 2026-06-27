@@ -2,7 +2,7 @@
 
 This is a guide to setup a Wireless LAN Network with a Wireless LAN Controller.
 
-![Wireless LAN Network with Wireless LAN Controller](../images/Wireless_LAN_Network_with_Wireless_LAN_Controller.PNG)
+![Wireless LAN Network with Wireless LAN Controller](../images/Wireless_LAN_Network_with_Wireless_LAN_Controller.png)
 
 ## IP Address Table for the Router
 Router0:

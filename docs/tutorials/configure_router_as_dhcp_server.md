@@ -13,7 +13,7 @@ List of Devices:
 	- Model Name: Router-PT
 	- Quantity: 1
 
-![Configure Router as DHCP Server](../images/Configure_Router_as_DHCP_Server.PNG)
+![Configure Router as DHCP Server](../images/Configure_Router_as_DHCP_Server.png)
 
 ## IP Address Table for the Routers
 

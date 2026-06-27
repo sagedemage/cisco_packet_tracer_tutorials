@@ -2,7 +2,7 @@
 
 This is a guide to configure and verify static and dynamic NAT.
 
-![NAT Configuration and Verification](../images/NAT_Configuration_and_Verification.PNG)
+![NAT Configuration and Verification](../images/NAT_Configuration_and_Verification.png)
 
 These are the network addresses for the inside and outside segments in static and dynamic NAT:
 - Inside Segment: 192.168.1.0/24
