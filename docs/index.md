@@ -2,7 +2,7 @@
 
 This is a guide to implement a WAN network in Cisco Packet Tracer.
 
-![WAN Network - Cisco Packet Tracer](./images/WAN_Network-Cisco_Packet_Tracer.PNG)
+![WAN Network - Cisco Packet Tracer](./images/WAN_Network-Cisco_Packet_Tracer.png)
 
 List of Devices:
 - Router:
