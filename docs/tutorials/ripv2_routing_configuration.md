@@ -2,7 +2,7 @@
 
 This is a guide to configure RIPv2 routing.
 
-![RIPv2 Routing Configuration](../images/RIPv2_Routing_Configuration.PNG)
+![RIPv2 Routing Configuration](../images/RIPv2_Routing_Configuration.png)
 
 List of Devices:
 - PC:

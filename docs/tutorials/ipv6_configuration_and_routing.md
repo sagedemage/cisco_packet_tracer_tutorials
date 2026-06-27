@@ -2,7 +2,7 @@
 
 This is a guide to configure the IPv6 network and routing.
 
-![IPv6 Configuration and Routing](../images/IPv6_Configuration_and_Routing.PNG)
+![IPv6 Configuration and Routing](../images/IPv6_Configuration_and_Routing.png)
 
 List of Devices:
 - Routers

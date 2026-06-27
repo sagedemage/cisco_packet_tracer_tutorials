@@ -2,7 +2,7 @@
 
 This is a guide to setup a branch network.
 
-![Branch Network](../images/Branch_Network.PNG)
+![Branch Network](../images/Branch_Network.png)
 
 List of Devices:
 - PC:

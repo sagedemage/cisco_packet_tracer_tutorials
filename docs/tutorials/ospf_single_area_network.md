@@ -2,7 +2,7 @@
 
 This is a guide to setup an OSPF single area network.
 
-![OSPF Single Area Network](../images/OSPF_Single_Area_Network.PNG)
+![OSPF Single Area Network](../images/OSPF_Single_Area_Network.png)
 
 List of Devices:
 - PC:

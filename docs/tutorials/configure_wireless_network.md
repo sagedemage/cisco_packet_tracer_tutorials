@@ -2,7 +2,7 @@
 
 This is a guide to configure a wireless network.
 
-![Configure Wireless Network](../images/Configure_Wireless_Network.PNG)
+![Configure Wireless Network](../images/Configure_Wireless_Network.png)
 
 List of Devices:
 - PC:
