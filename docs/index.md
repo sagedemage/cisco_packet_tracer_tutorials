@@ -1,4 +1,4 @@
-# WAN Network Tutorial - Cisco Packet Tracer
+# WAN Network - Cisco Packet Tracer
 
 This is a guide to implement a WAN network in Cisco Packet Tracer.
 
