@@ -1,6 +1,6 @@
 # Configure Router as DHCP Server
 
-This is a guide to setup a Wireless LAN Network with a Wireless LAN Controller.
+This is a guide to configure the router as a DHCP server.
 
 List of Devices:
 - PC:
