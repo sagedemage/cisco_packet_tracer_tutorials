@@ -195,7 +195,7 @@ ISP_Router# copy run start
 
 Saving config for SOHO_Router:
 ```
-SOHO_Router# copy copy run start
+SOHO_Router# copy run start
 ```
 
 ## Resources
