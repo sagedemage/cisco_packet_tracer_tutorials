@@ -23,6 +23,7 @@ export default defineConfig({
           { text: 'Wireless LAN Network', link: '/tutorials/wireless_lan_network_with_wireless_lan_controller.html' },
           { text: 'IPv6 Configuration and Routing', link: '/tutorials/ipv6_configuration_and_routing.html' },
           { text: 'NAT Configuration and Verification', link: '/tutorials/nat_configuration_and_verification.html' },
+          { text: 'Configure DHCP Server and Relay for Routers', link: '/tutorials/configure_dhcp_server_and_relay_for_routers.html' },
           { text: 'Configure ISP Network', link: '/tutorials/configure_isp_network.html' },
         ]
       }
