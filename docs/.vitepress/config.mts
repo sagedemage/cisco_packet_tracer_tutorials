@@ -16,7 +16,6 @@ export default defineConfig({
         text: 'Tutorials',
         items: [
           { text: 'WAN Network', link: '/' },
-          { text: 'Branch Network', link: '/tutorials/branch_network.html' },
           { text: 'OSPF Single Area Network', link: '/tutorials/ospf_single_area_network.html' },
           { text: 'Configure Router as DHCP Server', link: '/tutorials/configure_router_as_dhcp_server.html' },
           { text: 'Configure a Wireless Network', link: '/tutorials/configure_wireless_network.html' },
@@ -24,6 +23,7 @@ export default defineConfig({
           { text: 'Wireless LAN Network', link: '/tutorials/wireless_lan_network_with_wireless_lan_controller.html' },
           { text: 'IPv6 Configuration and Routing', link: '/tutorials/ipv6_configuration_and_routing.html' },
           { text: 'NAT Configuration and Verification', link: '/tutorials/nat_configuration_and_verification.html' },
+          { text: 'Configure ISP Network', link: '/tutorials/configure_isp_network.html' },
         ]
       }
     ],
