@@ -16,7 +16,6 @@ List of Devices:
 
 ## IP Address Table for the Routers
 R1:
-
 - GigabitEthernet0/0:
     - IPv4 Address: 10.1.1.2
     - Subnet Mask: 255.255.255.0
@@ -25,13 +24,11 @@ R1:
     - Subnet Mask: 255.255.255.0
 
 R2:
-
 - GigabitEthernet0/0:
     - IPv4 Address: 10.1.1.1
     - Subnet Mask: 255.255.255.0
 
 R3:
-
 - GigabitEthernet0/0:
     - IPv4 Address: 192.168.10.X (Assigned by DHCP)
     - Subnet Mask: 255.255.255.0
