@@ -1,5 +1,5 @@
 # Configure SSH
-A guide to configure SSH on the routers.
+This is a guide to configure SSH on the routers.
 
 ![Configure SSH](../images/Configure_SSH.png)
 

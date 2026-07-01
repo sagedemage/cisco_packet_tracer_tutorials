@@ -1,8 +1,8 @@
-# OSPF Single Area Network
+# Configure and Verify Single Area OSPFv2
 
-This is a guide to setup an OSPF single area network.
+This is a guide to configure and verify Single Area OSPFv2.
 
-![OSPF Single Area Network](../images/OSPF_Single_Area_Network.png)
+![OSPF Single Area Network](../images/Configure_and_Verify_Single_Area_OSPFv2.png)
 
 List of Devices:
 - PC:
