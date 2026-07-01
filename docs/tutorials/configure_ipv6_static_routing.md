@@ -1,6 +1,6 @@
-# IPv6 Configuration and Routing
+# Configure IPv6 Static Routing
 
-This is a guide to configure the IPv6 network and routing.
+This is a guide to configure IPv6 static routing.
 
 ![IPv6 Configuration and Routing](../images/IPv6_Configuration_and_Routing.png)
 

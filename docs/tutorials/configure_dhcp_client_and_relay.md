@@ -1,5 +1,5 @@
-# Configure DHCP Server and Relay for Routers
-This is a guide to configure the DHCP server and DHCP relay for the routers.
+# Configure DHCP Client and Relay
+This is a guide to configure the DHCP client and DHCP relay for the routers.
 
 ![Configure DHCP Server and Relay for Routers](../images/Configure_DHCP_Server_and_Relay_for_Routers.png)
 

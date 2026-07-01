@@ -1,6 +1,6 @@
-# NAT Configuration and Verification
+# Configure and Verify Inside Source NAT
 
-This is a guide to configure and verify static and dynamic NAT.
+This is a guide to configure and verify inside source NAT.
 
 ![NAT Configuration and Verification](../images/NAT_Configuration_and_Verification.png)
 
