@@ -103,5 +103,23 @@ Get detailed listing of the IP related characteristics of the interface GigabitE
 R3# show ip interface Gig0/0
 ```
 
+## Save Router Configurations
+For each router, save the running config to the startup config.
+
+Saving config for R1:
+```
+R1#copy running-config startup-config
+```
+
+Saving config for R2:
+```
+R2#copy running-config startup-config
+```
+
+Saving config for R3:
+```
+R3#copy running-config startup-config
+```
+
 ## Resources
-- [show ip interface - Cisco](https://www.cisco.com/E-Learning/bulk/public/tac/cim/cib/using_cisco_ios_software/cmdrefs/show_ip_interface.htm)
+- [show ip interface command - Cisco](https://www.cisco.com/E-Learning/bulk/public/tac/cim/cib/using_cisco_ios_software/cmdrefs/show_ip_interface.htm)

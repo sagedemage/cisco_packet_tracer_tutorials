@@ -17,6 +17,7 @@ export default defineConfig({
         items : [
           { text: 'Configure a Wireless Network', link: '/tutorials/configure_wireless_network.html' },
           { text: 'IPv4 Address Configuration and Verification', link: '/tutorials/ipv4_address_configuration_and_verification.html' },
+          { text: 'IPv6 Address Configuration and Verification', link: '/tutorials/ipv6_address_configuration_and_verification.html' },
         ]
       },
       {
