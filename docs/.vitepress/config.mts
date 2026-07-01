@@ -28,7 +28,7 @@ export default defineConfig({
         text: "3.0 IP Connectivity",
         items : [
           { text: 'Configure IPv4 Static Routing', link: '/tutorials/configure_ipv4_static_routing.html' },
-          { text: 'Configure IPv6 Routing', link: '/tutorials/configure_ipv6_routing.html' },
+          { text: 'Configure IPv6 Static Routing', link: '/tutorials/configure_ipv6_static_routing.html' },
           { text: 'Configure and Verify Single Area OSPFv2', link: '/tutorials/configure_and_verify_single_area_ospfv2.html' },
         ]
       },

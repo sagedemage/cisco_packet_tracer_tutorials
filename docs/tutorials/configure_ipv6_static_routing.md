@@ -1,4 +1,4 @@
-# Configure IPv6 Routing
+# Configure IPv6 Static Routing
 
 This is a guide to configure IPv6 routing.
 
