@@ -14,13 +14,11 @@ List of Devices:
 ## IPv6 Address Table for Routers
 R1:
 - Interface GigabitEthernet 0/0
-	- IPv6 Address: 10.1.1.1
-	- Subnet Mask: 255.255.255.0
+	- IPv6 Address: 2001:AAAA:BBBB::1/64
 
 R2:
 - Interface GigabitEthernet 0/0
-	- IPv6 Address: 10.1.1.2
-	- Subnet Mask: 255.255.255.0
+	- IPv6 Address: 2001:AAAA:BBBB::2/64
 
 ## Configure IPv6 Addresses for the Routers
 Configure IPv6 addresses on the interfaces of the routers.
