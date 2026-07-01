@@ -37,7 +37,8 @@ export default defineConfig({
       {
         text: "4.0 IP Services",
         items : [
-          { text: 'Configure and Verify Inside Source NAT', link: '/tutorials/configure_and_verify_inside_source_nat' },
+          { text: 'Configure and Verify Inside Source NAT', link: '/tutorials/configure_and_verify_inside_source_nat.html' },
+          { text: 'Configure and Verify NTP', link: '/tutorials/configure_and_verify_ntp.html' },
           { text: 'Configure DHCP Client and Relay', link: '/tutorials/configure_dhcp_client_and_relay.html' },
           { text: 'Configure Syslog', link: '/tutorials/configure_syslog.html' },
           { text: 'Configure SSH', link: '/tutorials/configure_ssh.html' },
