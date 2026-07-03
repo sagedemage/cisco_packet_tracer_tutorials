@@ -75,7 +75,6 @@ R6(config-if)# end
 ```
 
 ## Create VLANs
-
 Create VLANs for MLSW1, MLSW2, and MLSW3.
 
 Create VLANs for HR, Sales, and IT on MLSW1:
@@ -152,7 +151,6 @@ MLSW3(config-if)# end
 ```
 
 ## Configure Trunking
-
 Configure trunking on MLSW1.
 
 On Interface Fa0/1 on MLSW1:
@@ -210,7 +208,6 @@ MLSW3# show int trunk
 ```
 
 ## Save Router Configurations
-
 Go to each router and save the running configuration to the startup configuration.
 
 Save the config for R1:
@@ -244,7 +241,6 @@ R6# copy run start
 ```
 
 ## Save Switch Configurations
-
 Go to each multilayer switch and save the running configuration to the startup configuration.
 
 Save the config for MLSW1:
