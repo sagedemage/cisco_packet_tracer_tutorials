@@ -1,5 +1,5 @@
-# Configure VLANs
-This is a guide to configure VLANs on the switches.
+# Configure and Verify VLANs
+This is a guide to configure and verify VLANs on the switches.
 
 ![Configure VLANs](../images/Configure_VLANs.png)
 
@@ -140,8 +140,8 @@ R3(config-telephony)# end
 ## Configure IP Addresses of the PC
 On PC1, go to Desktop -> IP Configuration. Set the IPv4 Address, Subnet Mask, and Default Gateway according to the *IP Address Table for the PC*.
 
-## Configure VLANs for the Switches
-Configure the VLANs for the switches. You will create a VLAN called USERS for the PCs and a VLAN called VOICE for the IP Phones.
+## Configure and Verify VLANs for the Switches
+Configure and verify the VLANs for the switches. You will create a VLAN called USERS for the PCs and a VLAN called VOICE for the IP Phones.
 
 **SW1**
 

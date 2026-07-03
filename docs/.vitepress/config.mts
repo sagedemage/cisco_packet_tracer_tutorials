@@ -23,8 +23,8 @@ export default defineConfig({
       {
         text: "2.0 Network Access",
         items : [
-          { text: 'Configure VLANs', link: '/tutorials/configure_vlans.html' },         
-          { text: 'Configure Interswitch Connectivity', link: '/tutorials/configure_interswitch_connectivity.html' },         
+          { text: 'Configure and Verify VLANs', link: '/tutorials/configure_and_verify_vlans.html' },
+          { text: 'Configure and Verify Interswitch Connectivity', link: '/tutorials/configure_and_verify_interswitch_connectivity.html' },
           { text: 'Wireless LAN Network with Wireless LAN Controller', link: '/tutorials/wireless_lan_network_with_wireless_lan_controller.html' },
         ]
       },
