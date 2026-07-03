@@ -74,8 +74,8 @@ R6(config-if)# no shut
 R6(config-if)# end
 ```
 
-## Configure and Verify VLANs for the Switches
-Configure and verify VLANs for the switches.
+## Configure and Verify VLANs for the Multilayer Switches
+Configure and verify VLANs for the multilayer switches.
 
 Create VLANs for HR, Sales, and IT on MLSW1:
 ```
@@ -150,8 +150,8 @@ MLSW3(config-if)# switchport access vlan 30
 MLSW3(config-if)# end
 ```
 
-## Configure and Verify Trunking for the Switches
-Configure and verify trunking on MLSW1, MLSW2, and MLSW3.
+## Configure and Verify Trunking for the Multilayer Switches
+Configure and verify trunking for the multilayer switches.
 
 On Interface Fa0/1 on MLSW1:
 ```
@@ -240,7 +240,7 @@ Save the config for R6:
 R6# copy run start
 ```
 
-## Save Switch Configurations
+## Save Multilayer Switch Configurations
 Go to each multilayer switch and save the running configuration to the startup configuration.
 
 Save the config for MLSW1:
