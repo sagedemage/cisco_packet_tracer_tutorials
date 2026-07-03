@@ -1,6 +1,6 @@
-# Configure Interswitch Connectivity
+# Configure and Verify Interswitch Connectivity
 
-This is a guide to configure interswitch connectivity.
+This is a guide to configure and verify interswitch connectivity.
 
 ![Configure Interswitch Connectivity](../images/Configure_Interswitch_Connectivity.png)
 
@@ -74,8 +74,8 @@ R6(config-if)# no shut
 R6(config-if)# end
 ```
 
-## Create VLANs
-Create VLANs for MLSW1, MLSW2, and MLSW3.
+## Configure and Verify VLANs for the Switches
+Configure and verify VLANs for the switches.
 
 Create VLANs for HR, Sales, and IT on MLSW1:
 ```
@@ -150,8 +150,8 @@ MLSW3(config-if)# switchport access vlan 30
 MLSW3(config-if)# end
 ```
 
-## Configure Trunking
-Configure trunking on MLSW1.
+## Configure and Verify Trunking for the Switches
+Configure and verify trunking on MLSW1, MLSW2, and MLSW3.
 
 On Interface Fa0/1 on MLSW1:
 ```
