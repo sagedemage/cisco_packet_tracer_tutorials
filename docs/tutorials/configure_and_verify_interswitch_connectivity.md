@@ -1,6 +1,6 @@
 # Configure and Verify Interswitch Connectivity
 
-This is a guide to configure and verify interswitch connectivity.
+This is a guide to configure and verify interswitch connectivity on the multilayer switches.
 
 ![Configure Interswitch Connectivity](../images/Configure_Interswitch_Connectivity.png)
 
