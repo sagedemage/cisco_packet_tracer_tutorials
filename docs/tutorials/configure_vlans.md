@@ -164,7 +164,7 @@ Verify the VLANs on SW1:
 SW1(config)# do show vlan brief
 ```
 
-Configure the VLANs for the interfaces on SW1.
+Assign VLANs to the interfaces on SW1.
 
 Interface FastEthernet 0/2 on SW1:
 ```
@@ -218,7 +218,7 @@ Verify the VLANs on SW2:
 SW2(config)# do show vlan brief
 ```
 
-Configure the VLANs for the interfaces on SW2.
+Assign VLANs to the interfaces on SW2.
 
 Interface FastEthernet 0/2 on SW2:
 ```
@@ -289,3 +289,4 @@ SW2# copy run start
 ## Resources
 - [Cisco VoIP Phone Configuration Guide - UniNets](https://www.uninets.com/blog/configure-cisco-voip)
 - [How to Configure DHCP in Cisco Packet Tracer - SYSNETTECH Solutions](https://www.sysnettechsolutions.com/en/configure-dhcp-in-cisco-packet-tracer/)
+- [3.3.12 Packet Tracer – VLAN Configuration (Instructions Answer) - ITExamAnswers.net](https://itexamanswers.net/3-3-12-packet-tracer-vlan-configuration-instructions-answer.html)
