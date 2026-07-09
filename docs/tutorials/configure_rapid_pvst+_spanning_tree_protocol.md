@@ -11,7 +11,7 @@ List of Devices:
 	1. Quantity: 3
 	2. Model Name: 2960
 
-### IP Address Table for the PCs
+## IP Address Table for the PCs
 PC1:
 - IPv4 Address: 192.168.1.1
 - Subnet Mask: 255.255.255.0
@@ -95,12 +95,12 @@ ACC1(config-if)# spanning-tree portfast
 ACC1(config-if)# end
 ```
 
-### Configure IP Address for the PCs
+## Configure IP Address for the PCs
 Configure the IP address for the PCs.
 
 Go to Desktop -> IP Configuration. Set the IPv4 Address and Subnet Mask according to the *IP Address Table for the PCs*.
 
-### Save Switch Configurations
+## Save Switch Configurations
 Go to each switch and save the running configuration to the startup configuration.
 
 Save the config for ACC1:
