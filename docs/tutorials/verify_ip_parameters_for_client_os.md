@@ -88,6 +88,7 @@ R3(config-if)# ip add 192.168.2.2 255.255.255.0
 R3(config-if)# no shut
 R3(config-if)# end
 ```
+
 ### Configure IPv4 Address for the PCs
 Configure the IPv4 address for the PCs.
 
