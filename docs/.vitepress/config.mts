@@ -53,7 +53,7 @@ export default defineConfig({
       {
         text: "5.0 Security Fundamentals",
         items : [
-
+          { text: 'Configure and Verify Device Access Controls', link: '/tutorials/configure_and_verify_device_access_controls.html' },
         ]
       },
       {
