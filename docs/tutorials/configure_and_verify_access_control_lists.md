@@ -118,7 +118,7 @@ R3(config-if)# end
 ## Configure Static Routing
 Configure static routing on the routers.
 
-Configure a static route for R1:
+Configure static routes for R1:
 ```
 R1# conf t
 R1(config)# ip route 10.1.2.0 255.255.255.0 10.1.1.1
