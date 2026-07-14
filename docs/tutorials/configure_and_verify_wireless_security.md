@@ -40,7 +40,6 @@ R1(config-if)# end
 ```
 
 ## Configure DHCP
-
 Create a DHCP pool called Pool0DHCP with the following IP addresses for the network, default-router, and dns-server on R1.
 ```
 R1# conf t
@@ -53,7 +52,6 @@ R1(dhcp-config)# end
 ```
 
 ## Configure WLC Management
-
 On Wireless LAN Contoller1, go to Config -> Management. Set the IPv4 Address, Subnet Mask, and Default Gateway according to the information below:
 - IPv4 Address: 192.168.1.2
 - Subnet Mask: 255.255.255.0
