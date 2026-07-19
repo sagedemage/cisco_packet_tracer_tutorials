@@ -68,21 +68,21 @@ Configure the IP addresses of the interfaces for Router0
 
 Interface FastEthernet0/0 for R1:
 ```
-R1> enable
+R1> en
 R1# conf t
-R1(config)# interface fastethernet 0/0
-R1(config-if)# ip address 192.168.10.1 255.255.255.0
-R1(config-if)# no shutdown
+R1(config)# int fastethernet 0/0
+R1(config-if)# ip add 192.168.10.1 255.255.255.0
+R1(config-if)# no shut
 R1(config-if)# exit
 ```
 
 Interface FastEthernet1/0 for R1:
 ```
-R1> enable
+R1> en
 R1# conf t
-R1(config)# interface fastethernet 1/0
-R1(config-if)# ip address 192.168.11.1 255.255.255.0
-R1(config-if)# no shutdown
+R1(config)# int fastethernet 1/0
+R1(config-if)# ip add 192.168.11.1 255.255.255.0
+R1(config-if)# no shut
 R1(config-if)# exit
 ```
 
