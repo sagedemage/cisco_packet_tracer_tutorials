@@ -12,6 +12,38 @@ List of Devices:
 	1. Quantity: 3
 	2. Model Name: 3560
 
+## IP Address Table of the Routers
+R1:
+- Interface: GigabitEthernet 0/0
+	- IPv4 Address: 10.1.1.1
+	- Subnet Mask: 255.255.255.0
+
+R2:
+- Interface: GigabitEthernet 0/0
+	- IPv4 Address: 10.1.1.2
+	- Subnet Mask: 255.255.255.0
+
+R3:
+- Interface: GigabitEthernet 0/0
+	- IPv4 Address: 10.1.2.1
+	- Subnet Mask: 255.255.255.0
+
+R4:
+- Interface: GigabitEthernet 0/0
+	- IPv4 Address: 10.1.2.2
+	- Subnet Mask: 255.255.255.0
+
+R5:
+- Interface: GigabitEthernet 0/0
+	- IPv4 Address: 10.1.3.1
+	- Subnet Mask: 255.255.255.0
+
+R6:
+- Interface: GigabitEthernet 0/0
+	- IPv4 Address: 10.1.3.2
+	- Subnet Mask: 255.255.255.0
+
+## Configure IP Addresses for the Routers
 Configure IP address for the interfaces of the routers.
 
 Interface Gig0/0 on R1:
