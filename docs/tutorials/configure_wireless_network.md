@@ -22,29 +22,29 @@ List of Devices:
 	- Quantity: 2
 
 ## IP Address Table for the PCs
-PC0:
+PC1:
 - IP Address: 192.168.11.2
 - Subnet Mask: 255.255.255.0
 - Default Gateway: 192.168.11.1
 
-PC1:
+PC2:
 - IP Address: 192.168.11.3
 - Subnet Mask: 255.255.255.0
 - Default Gateway: 192.168.11.1
 
 ## IP Address Table for the Laptops
-Laptop0:
+Laptop1:
 - IP Address: 192.168.0.2
 - Subnet Mask: 255.255.255.0
 - Default Gateway: 192.168.0.1
 
-Laptop1:
+Laptop2:
 - IP Address: 192.168.0.3
 - Subnet Mask: 255.255.255.0
 - Default Gateway: 192.168.0.1
 
 ## IP Address Table for the Routers
-Router0:
+R1:
 - FastEthernet0/0
 	- IP Address: 192.168.10.1
 	- Subnet Mask: 255.255.255.0
@@ -52,7 +52,7 @@ Router0:
 	- IP Address: 192.168.11.1
 	- Subnet Mask: 255.255.255.0
 
-Wireless Router0:
+Wireless R1:
 - Internet
 	- IP Configuration: Static
 	- IPv4 Address: 192.168.10.2
@@ -66,24 +66,24 @@ Wireless Router0:
 
 Configure the IP addresses of the interfaces for Router0
 
-Interface FastEthernet0/0 for Router0:
+Interface FastEthernet0/0 for R1:
 ```
-Router> enable
-Router# conf t
-Router(config)# interface fastethernet 0/0
-Router(config-if)# ip address 192.168.10.1 255.255.255.0
-Router(config-if)# no shutdown
-Router(config-if)# exit
+R1> enable
+R1# conf t
+R1(config)# interface fastethernet 0/0
+R1(config-if)# ip address 192.168.10.1 255.255.255.0
+R1(config-if)# no shutdown
+R1(config-if)# exit
 ```
 
-Interface FastEthernet1/0 for Router0:
+Interface FastEthernet1/0 for R1:
 ```
-Router> enable
-Router# conf t
-Router(config)# interface fastethernet 1/0
-Router(config-if)# ip address 192.168.11.1 255.255.255.0
-Router(config-if)# no shutdown
-Router(config-if)# exit
+R1> enable
+R1# conf t
+R1(config)# interface fastethernet 1/0
+R1(config-if)# ip address 192.168.11.1 255.255.255.0
+R1(config-if)# no shutdown
+R1(config-if)# exit
 ```
 
 Configure the interfaces of Wireless Router0 according to the *IP Address Table for the Routers*.
@@ -98,9 +98,9 @@ Repeat the same steps for the other laptops.
 Configure the IP addresses for the laptops according to the *IP Address Table for the Laptops*.
 
 ## Save Router Configuration
-Go to Router0 and save the running configuration to the startup configuration.
+Go to R1 and save the running configuration to the startup configuration.
 ```
-Router#copy running-config startup-config
+R1# copy run start
 ```
 
 ## Resource
