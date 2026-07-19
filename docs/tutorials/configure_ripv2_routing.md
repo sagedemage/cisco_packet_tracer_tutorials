@@ -141,8 +141,8 @@ R3(config-if)# no shut
 R3(config-if)# end
 ```
 
-## Configure Dynamic Routing
-Configure the dynamic routes to the routers.
+## Configure Dynamic Routing via RIPv2
+Configure dynamic routes via RIPv2 for the routers.
 
 Configure RIPv2 on R1:
 ```
