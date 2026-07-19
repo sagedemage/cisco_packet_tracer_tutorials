@@ -29,7 +29,7 @@ export default defineConfig({
           { text: 'Configure and Verify Layer 2 Discovery Protocols', link: '/tutorials/configure_and_verify_layer_2_discovery_protocols.html' },
           { text: 'Configure and Verify EtherChannel', link: '/tutorials/configure_and_verify_etherchannel.html' },
           { text: 'Configure Rapid PVST+ Spanning Tree Protocol', link: '/tutorials/configure_rapid_pvst+_spanning_tree_protocol.html' },
-          { text: 'Wireless LAN Network with Wireless LAN Controller', link: '/tutorials/wireless_lan_network_with_wireless_lan_controller.html' },
+          { text: 'Setup Wireless LAN Network with Wireless LAN Controller', link: '/tutorials/setup_wireless_lan_network_with_wireless_lan_controller.html' },
         ]
       },
       {
@@ -63,7 +63,7 @@ export default defineConfig({
         text: "Extra Tutorials",
         items : [
           { text: 'Configure Router as DHCP Server', link: '/tutorials/configure_router_as_dhcp_server.html' },
-          { text: 'RIPv2 Routing Configuration', link: '/tutorials/ripv2_routing_configuration.html' },
+          { text: 'Configure RIPv2 Routing', link: '/tutorials/configure_ripv2_routing.html' },
         ]
       },
       {

@@ -1,11 +1,22 @@
-# Wireless LAN Network with Wireless LAN Controller
+# Setup Wireless LAN Network with Wireless LAN Controller
 
 This is a guide to setup a Wireless LAN Network with a Wireless LAN Controller.
 
-![Wireless LAN Network with Wireless LAN Controller](../images/Wireless_LAN_Network_with_Wireless_LAN_Controller.png)
+![Setup Wireless LAN Network with Wireless LAN Controller](../images/Setup_Wireless_LAN_Network_with_Wireless_LAN_Controller.png)
+
+List of Devices:
+- PCs:
+	- Quantity: 2
+	- Model Name: PC-PT
+- Switches:
+	- Quantity: 2
+	- Model Name: 2960
+- Routers:
+	- Quantity: 3
+	- Model Name: 2911
 
 ## IP Address Table for the Router
-Router0:
+R1:
 - Interface: GigabitEthernet0/0
 - IPv4 Address: 10.1.1.3
 - Subnet Mask: 255.255.255.0
@@ -23,10 +34,10 @@ Configure the IP address for the interface of Router0.
 
 Interface GigabitEthernet0/0 for Router0:
 ```
-Router>en
-Router#conf t
-Router(config)#interface Gig0/0
-Router(config-if)#ip add 10.1.1.3 255.255.255.0
+R1>en
+R1#conf t
+R1(config)#interface Gig0/0
+R1(config-if)#ip add 10.1.1.3 255.255.255.0
 ```
 
 ## Configure DHCP for the Router
@@ -35,19 +46,19 @@ Configure DHCP for Router0.
 
 DHCP Configuration for Router0:
 ```
-Router>en
-Router#conf t
-Router(config)#ip dhcp excluded-address 10.1.1.1 10.1.1.10
-Router(config)#ip dhcp pool Pool0DHCP
-Router(dhcp-config)#network 10.1.1.0 255.255.255.0
-Router(dhcp-config)#default-router 10.1.1.1
-Router(dhcp-config)#dns-server 10.1.1.1
-Router(dhcp-config)#end
+R1> en
+R1# conf t
+R1(config)# ip dhcp excluded-address 10.1.1.1 10.1.1.10
+R1(config)# ip dhcp pool Pool0DHCP
+R1(dhcp-config)# network 10.1.1.0 255.255.255.0
+R1(dhcp-config)# default-router 10.1.1.1
+R1(dhcp-config)# dns-server 10.1.1.1
+R1(dhcp-config)# end
 ```
 
 ## Configure the Wireless LAN Controller
 
-Configure the Wireless LAN Controller0.
+Configure the Wireless LAN Controller1.
 
 Go to the config tab of the WLC. Then go to the Management section. Set the fields for the IP configuration according to the *IP Address Table for the WLC*.
 
@@ -71,7 +82,7 @@ Go to the Config tab then to Wireless0. Set the SSID to Sunlight. Change the aut
 
 ## Save Router Configuration
 
-Go to Router0 and save the running configuration to the startup configuration.
+Go to R1 and save the running configuration to the startup configuration.
 ```
-Router#copy running-config startup-config
+R1# copy run start
 ```

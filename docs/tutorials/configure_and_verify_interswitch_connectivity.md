@@ -5,12 +5,12 @@ This is a guide to configure and verify interswitch connectivity on the multilay
 ![Configure Interswitch Connectivity](../images/Configure_Interswitch_Connectivity.png)
 
 List of Devices:
-1. Routers:
-	1. Quantity: 6
-	2. Model Name: 2911
-2. Multilayer Switches:
-	1. Quantity: 3
-	2. Model Name: 3560
+- Routers:
+	- Quantity: 6
+	- Model Name: 2911
+- Multilayer Switches:
+	- Quantity: 3
+	- Model Name: 3560
 
 ## IP Address Table of the Routers
 R1:

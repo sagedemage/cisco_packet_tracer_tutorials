@@ -4,12 +4,12 @@ This is a guide to configure Rapid PVST+ Spanning Tree Protocol on the switch.
 ![Configure Rapid PVST+ Spanning Tree Protocol](../images/Configure_Rapid_PVST+_Spanning_Tree_Protocol.png)
 
 List of Devices:
-1. PCs
-	1. Quantity: 2
-	2. Model Name: PC-PT
-2. Switch
-	1. Quantity: 3
-	2. Model Name: 2960
+- PCs
+	- Quantity: 2
+	- Model Name: PC-PT
+- Switch
+	- Quantity: 3
+	- Model Name: 2960
 
 ## IP Address Table for the PCs
 PC1:

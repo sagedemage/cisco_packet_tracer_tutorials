@@ -4,12 +4,12 @@ This is a guide to configure and verify layer 2 discovery protocols. You will co
 ![Configure and Verify Layer 2 Discovery Protocols](../images/Configure_and_Verify_Layer_2_Discovery_Protocols.png)
 
 List of Devices:
-1. Routers:
-	1. Quantity: 3
-	2. Model Name: 2911
-2. Switches:
-	1. Quantity: 2
-	2. Model Name: 2960
+- Routers:
+	- Quantity: 3
+	- Model Name: 2911
+- Switches:
+	- Quantity: 2
+	- Model Name: 2960
 
 ## IP Address Table for the Routers
 R1:

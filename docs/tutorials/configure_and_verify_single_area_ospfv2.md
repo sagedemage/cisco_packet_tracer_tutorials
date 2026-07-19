@@ -60,10 +60,9 @@ R3:
 	- Subnet Mask: 255.255.255.0
 
 ## Configure IP Addresses for the Routers
+Configure the IP addresses for the interfaces of the routers.
 
 For each 2911 router, go to the Physical tab. Add the interface, HWIC-2T, to the router. This provides you access to serial ports required for routing.
-
-Configure the IP addresses for the router's interfaces.
 
 Interface GigabitEthernet0/0 for R1:
 ```

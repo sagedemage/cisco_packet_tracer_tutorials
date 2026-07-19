@@ -67,12 +67,12 @@ For each router, save the running config to the startup config.
 
 Saving config for R1:
 ```
-R1#copy running-config startup-config
+R1# copy run start
 ```
 
 Saving config for R2:
 ```
-R2#copy running-config startup-config
+R2# copy run start
 ```
 
 ## Resources
