@@ -16,7 +16,6 @@ List of Devices:
 	- Quantity: 1
 
 ## IP Address Table for the Routers
-
 R1:
 - GigabitEthernet0/0: 
     - IPv4 Address: 172.168.10.1
@@ -26,8 +25,7 @@ R1:
     - Subnet Mask: 255.255.255.0
 
 ## Configure IP Addresses for the Router
-
-Configuring Router with IPv4 Address and Subnet Mask.
+Configure the IP address for the interfaces of the routers.
 
 Interface GigabitEthernet0/0 for R1:
 ```
@@ -48,7 +46,6 @@ R1(config-if)# end
 ```
 
 ## Configure DHCP for the Router
-
 Configure DHCP on R1.
 
 Create a DHCP pool called `Pool0DHCP` with the following IP addresses for the network, default-router, and dns-server on R1:
@@ -73,7 +70,6 @@ R1(dhcp-config)# end
 ```
 
 ## Enable DHCP for the PCs
-
 Configure the PCs and change the IP configuration.
 1. To assign an IP address in PC1, click on PC1.
 2. Go to "Desktop" -> "IP configuration" and you will find the IPv4 configuration.
