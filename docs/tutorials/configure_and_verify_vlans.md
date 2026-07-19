@@ -4,21 +4,21 @@ This is a guide to configure and verify VLANs on the switches.
 ![Configure VLANs](../images/Configure_VLANs.png)
 
 List of Devices:
-1. Routers:
-	1. Quantity: 2
-	2. Model Name: 2911
-2. Routers:
-	1. Quantity: 1
-	2. Model Name: 2811
-3. Switches:
-	1. Quantity: 2
-	2. Model Name: 2960
-4. PC:
-	1. Quantity: 1
-	2. Model Name: PC-PT
-5. IP Phone:
-	1. Quantity: 1
-	2. Model Name: IP Phone
+- Routers:
+	- Quantity: 2
+	- Model Name: 2911
+- Routers:
+	- Quantity: 1
+	- Model Name: 2811
+- Switches:
+	- Quantity: 2
+	- Model Name: 2960
+- PC:
+	- Quantity: 1
+	- Model Name: PC-PT
+- IP Phone:
+	- Quantity: 1
+	- Model Name: IP Phone
 
 ## IP Address Table for the Routers
 R1:

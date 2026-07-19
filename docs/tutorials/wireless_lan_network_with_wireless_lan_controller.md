@@ -4,6 +4,17 @@ This is a guide to setup a Wireless LAN Network with a Wireless LAN Controller.
 
 ![Wireless LAN Network with Wireless LAN Controller](../images/Wireless_LAN_Network_with_Wireless_LAN_Controller.png)
 
+List of Devices:
+- PCs:
+	- Quantity: 2
+	- Model Name: PC-PT
+- Switches:
+	- Quantity: 2
+	- Model Name: 2960
+- Routers:
+	- Quantity: 3
+	- Model Name: 2911
+
 ## IP Address Table for the Router
 Router0:
 - Interface: GigabitEthernet0/0
