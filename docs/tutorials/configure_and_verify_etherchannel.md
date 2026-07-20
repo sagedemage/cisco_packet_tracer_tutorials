@@ -44,22 +44,22 @@ DIST2(config-if-range)# channel-group 2 mode desirable
 DIST2(config-if-range)# end
 ```
 
-Verify static layer 2 EtherChannel on DIST2:
+Verify layer 2 EtherChannel via PAgP on DIST2:
 ```
 DIST2# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 2 for DIST2:
+Verify layer 2 EtherChannel via PAgP on port channel 2 for DIST2:
 ```
 DIST2# show interface port-channel 2
 ```
 
-Verify static layer 2 EtherChannel on ACC1:
+Verify layer 2 EtherChannel via PAgP on ACC1:
 ```
 ACC1# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 2 for ACC1:
+Verify layer 2 EtherChannel via PAgP on port channel 2 for ACC1:
 ```
 ACC1# show interface port-channel 2
 ```
@@ -94,22 +94,22 @@ DIST1(config-if-range)# no shutdown
 DIST1(config-if-range)# end
 ```
 
-Verify static layer 2 EtherChannel on DIST1:
+Verify layer 2 EtherChannel via LACP on DIST1:
 ```
 DIST1# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 3 for DIST1:
+Verify layer 2 EtherChannel via LACP on port channel 3 for DIST1:
 ```
 DIST1# show interface port-channel 3
 ```
 
-Verify static layer 2 EtherChannel on DIST2:
+Verify layer 2 EtherChannel via LACP on DIST2:
 ```
 DIST2# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 3 for DIST2:
+Verify layer 2 EtherChannel via LACP on port channel 3 for DIST2:
 ```
 DIST2# show interface port-channel 3
 ```
@@ -254,22 +254,22 @@ DIST1(config-if-range)# no shutdown
 DIST1(config-if-range)# end
 ```
 
-Verify static layer 2 EtherChannel on DIST1:
+Verify layer 3 EtherChannel on DIST1:
 ```
 DIST1# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 1 for DIST1:
+Verify layer 3 EtherChannel on port channel 1 for DIST1:
 ```
 DIST1# show interface port-channel 1
 ```
 
-Verify static layer 2 EtherChannel on ACC1:
+Verify layer 3 EtherChannel on ACC1:
 ```
 ACC1# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 1 for ACC1:
+Verify layer 3 EtherChannel on port channel 1 for ACC1:
 ```
 ACC1# show interface port-channel 1
 ```
@@ -316,22 +316,22 @@ DIST2(config-if-range)# no shutdown
 DIST2(config-if-range)# end
 ```
 
-Verify static layer 2 EtherChannel on DIST2:
+Verify layer 3 EtherChannel on DIST2:
 ```
 DIST2# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 2 for DIST2:
+Verify layer 3 EtherChannel on port channel 2 for DIST2:
 ```
 DIST2# show interface port-channel 2
 ```
 
-Verify static layer 2 EtherChannel on ACC1:
+Verify layer 3 EtherChannel on ACC1:
 ```
 ACC1# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 2 for ACC1:
+Verify layer 3 EtherChannel on port channel 2 for ACC1:
 ```
 ACC1# show interface port-channel 2
 ```
@@ -378,22 +378,22 @@ DIST2(config-if-range)# no shutdown
 DIST2(config-if-range)# end
 ```
 
-Verify static layer 2 EtherChannel on DIST2:
+Verify layer 3 EtherChannel on DIST2:
 ```
 DIST2# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 3 for DIST2:
+Verify layer 3 EtherChannel on port channel 3 for DIST2:
 ```
 DIST2# show interface port-channel 3
 ```
 
-Verify static layer 2 EtherChannel on DIST1:
+Verify layer 3 EtherChannel on DIST1:
 ```
 DIST1# show etherchannel summary
 ```
 
-Verify static layer 2 EtherChannel on port channel 3 for DIST1:
+Verify layer 3 EtherChannel on port channel 3 for DIST1:
 ```
 DIST1# show interface port-channel 3
 ```
