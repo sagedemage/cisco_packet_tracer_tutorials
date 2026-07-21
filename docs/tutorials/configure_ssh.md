@@ -227,6 +227,24 @@ Test the SSH connection to R2:
 C:\> ssh -l R3 10.1.2.2
 ```
 
+## Save Router Configurations
+Save the running config to the startup config for the routers.
+
+Saving config for R1:
+```
+R1# copy run start
+```
+
+Saving config for R2:
+```
+R2# copy run start
+```
+
+Saving config for R3:
+```
+R3# copy run start
+```
+
 ## Resources
 - [IP Domain-name Command on CISCO Router/Switch - ITExamAnswers.net](https://itexamanswers.net/ip-domain-name-command-on-cisco-router-switch.html)
 - [Configure SSH on Routers - Cisco Systems, Inc.](https://www.cisco.com/c/en/us/support/docs/security-vpn/secure-shell-ssh/4145-ssh.html)
