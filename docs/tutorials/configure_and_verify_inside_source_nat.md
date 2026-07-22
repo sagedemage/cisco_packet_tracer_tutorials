@@ -4,6 +4,11 @@ This is a guide to configure and verify inside source NAT.
 
 ![NAT Configuration and Verification](../images/NAT_Configuration_and_Verification.png)
 
+List of Devices:
+- Routers:
+	- Quantity: 6
+	- Model Name: 2911
+
 These are the network addresses for the inside and outside segments in static and dynamic NAT:
 - Inside Segment: 192.168.1.0/24
 - Outside Segment: 10.1.1.0/24
